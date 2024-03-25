@@ -78,23 +78,23 @@ main {
   cursor: pointer;
 }
 
-#buy-container { display: flex; justify-content: center; align-items: center; padding: 0; margin: 0; }
+#buy-container { display: flex; justify-content: center; align-items: center; text-align: center; width: 82px; padding: 0; margin: 0; }
 #buy-button {
   text-align: center;
   background: none;
   border: none;
-  width: 80px;
   padding: 0;
   font-family: 'aztec';
   color: var(--text);
   font-size: 12px;
   letter-spacing: 1px;
+  margin-left: 4px;
   cursor: pointer;
 }
 #buy-border-top { position: absolute; top: 0; padding: 0; margin: 0; }
 #buy-border-bottom { position: absolute; bottom: 8px; padding: 0; margin: 0;}
 #buy-border-left { position: absolute; bottom: 22px; left: 220px; padding: 0; margin: 0; }
-#buy-border-right { position: absolute; bottom: 22px; right: -12px; padding: 0; margin: 0; }
+#buy-border-right { position: absolute; bottom: 22px; right: -18px; padding: 0; margin: 0; }
 
 /* Footer */
 #footer-container {
@@ -161,11 +161,21 @@ main {
 }
 
 #main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 12px;
 }
 #main-content .header {
   font-family: 'aztec';
   font-size: 36px;
+  margin-bottom: -12px;
+}
+
+#nala-main-img {
+  width: 160px;
+  height: auto;
 }
 
 #main-border-top { position: absolute; top: 0; padding: 0; margin: 0; }
