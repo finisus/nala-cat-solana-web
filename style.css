@@ -83,7 +83,8 @@ main {
   text-align: center;
   background: none;
   border: none;
-  width: 82px;
+  width: 80px;
+  padding: 0;
   font-family: 'aztec';
   color: var(--text);
   font-size: 12px;
@@ -93,7 +94,7 @@ main {
 #buy-border-top { position: absolute; top: 0; padding: 0; margin: 0; }
 #buy-border-bottom { position: absolute; bottom: 8px; padding: 0; margin: 0;}
 #buy-border-left { position: absolute; bottom: 22px; left: 220px; padding: 0; margin: 0; }
-#buy-border-right { position: absolute; bottom: 22px; right: -10px; padding: 0; margin: 0; }
+#buy-border-right { position: absolute; bottom: 22px; right: -12px; padding: 0; margin: 0; }
 
 /* Footer */
 #footer-container {
