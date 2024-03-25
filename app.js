@@ -1,6 +1,18 @@
 // execute after dom load
 document.addEventListener('DOMContentLoaded', function() {
 
+  // cat sound
+  const sideCat = document.getElementById('side-cat');
+  sideCat.addEventListener('mouseover', function() {
+    let audio = new Audio("./metadata/softmeow1.mp3");
+    audio.play();
+  });
+  const sideCat2 = document.getElementById('side-cat');
+  sideCat2.addEventListener('click', function() {
+    let audio = new Audio("./metadata/softmeow1.mp3");
+    audio.play();
+  });
+
   // copy button logic
   const copyButton = document.getElementById('copy-ca-button');
   const textToCopy = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
