@@ -1,0 +1,70 @@
+/* Fonts */
+@font-face {
+  font-family: 'aztec';
+  src: url(./metadata/fonts/aztech-forest/AztechForest-9YJa0.otf);
+}
+@font-face {
+  font-family: 'cattie';
+  src: url(./metadata/fonts/cattie/Cattie-Regular.ttf);
+}
+@font-face {
+  font-family: 'paws';
+  src: url(./metadata/fonts/little-paws/LittlePaws-8MZqZ.ttf);
+}
+@font-face {
+  font-family: 'orient';
+  src: url(./metadata/fonts/oriental-cats/OrientalCatsLight-2OzB8.otf);
+}
+@font-face {
+  font-family: 'simplecat';
+  src: url(./metadata/fonts/simple-cat/Simplecat-d9xpV.otf);
+}
+
+/* Global Settings */
+
+/* Color Scheme: Catppuccin Latte */
+:root {
+  --background: rgba(239, 241, 245, 1.0);
+  --text: rgba(76, 79, 105, 1.0);
+  --primary: ;
+  --secondary: ;
+  --accent: ;
+}
+
+/* let page take full height of viewport excess */
+html {height: 100%;} body {position: absolute; top: 0; bottom: 0; right: 0; left: 0;}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'aztec';
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px dotted black;
+}
+
+#main-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  border: 3px dotted red;
+}
+
+#main-content-container .header {
+  font-family: 'aztec';
+
+}
