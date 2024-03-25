@@ -63,11 +63,14 @@ main {
   width: auto;
   height: auto;
   padding: 12px;
-  gap: 16px;
+  gap: 12px;
 }
-#header-container .socials { display: flex; gap: 8px; padding: 0; }
 
-#telegram-button, #twitter-button, #chart-button {
+.socials {
+  display: flex;
+  gap: 2px;
+}
+#telegram-button, #twitter-button, #chart-button, #buy-button {
   text-align: center;
   background: none;
   border: none;
@@ -78,23 +81,30 @@ main {
   cursor: pointer;
 }
 
-#buy-container { display: flex; justify-content: center; align-items: center; text-align: center; width: 82px; padding: 0; margin: 0; }
-#buy-button {
-  text-align: center;
-  background: none;
-  border: none;
-  padding: 0;
-  font-family: 'aztec';
-  color: var(--text);
-  font-size: 12px;
-  letter-spacing: 1px;
-  margin-left: 4px;
-  cursor: pointer;
+#buy-border-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 12px;
+  margin-top: -2px;
 }
-#buy-border-top { position: absolute; top: 0; padding: 0; margin: 0; }
-#buy-border-bottom { position: absolute; bottom: 8px; padding: 0; margin: 0;}
-#buy-border-left { position: absolute; bottom: 22px; left: 220px; padding: 0; margin: 0; }
-#buy-border-right { position: absolute; bottom: 22px; right: -18px; padding: 0; margin: 0; }
+#buy-border-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 6px;
+  margin-right: 12px;
+}
+#buy-border-left {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+}
+#buy-border-right {
+  position: absolute;
+  right: 0;
+  margin-right: -14px;
+}
 
 /* Footer */
 #footer-container {
