@@ -72,7 +72,8 @@ main {
   background: none;
   border: none;
   font-family: 'aztec';
-  font-size: 13px;
+  color: var(--text);
+  font-size: 12px;
   letter-spacing: 1px;
   cursor: pointer;
 }
@@ -82,21 +83,23 @@ main {
   text-align: center;
   background: none;
   border: none;
+  width: 82px;
   font-family: 'aztec';
-  font-size: 13px;
+  color: var(--text);
+  font-size: 12px;
   letter-spacing: 1px;
   cursor: pointer;
 }
 #buy-border-top { position: absolute; top: 0; padding: 0; margin: 0; }
 #buy-border-bottom { position: absolute; bottom: 8px; padding: 0; margin: 0;}
-#buy-border-left { position: absolute; bottom: 22px; left: 232px; padding: 0; margin: 0; }
-#buy-border-right { position: absolute; bottom: 22px; right: -6px; padding: 0; margin: 0; }
+#buy-border-left { position: absolute; bottom: 22px; left: 220px; padding: 0; margin: 0; }
+#buy-border-right { position: absolute; bottom: 22px; right: -10px; padding: 0; margin: 0; }
 
 /* Footer */
 #footer-container {
   position: fixed;
   bottom: 0;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
