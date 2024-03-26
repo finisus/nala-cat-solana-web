@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // copy button logic
   const copyButton = document.getElementById('copy-ca-button');
-  const textToCopy = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+  const textToCopy = "2KoP78RUzDuimgZm6e2k1HX9nftnGLvfAAeisCAJGP8b";
   copyButton.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // links
   const twitterBtn = document.getElementById('twitter-button');
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/', '_blank');
+    window.open('https://x.com/nalaonsolana', '_blank');
   });
 
   const telegramBtn = document.getElementById('telegram-button');
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const buyBtn = document.getElementById('buy-button');
   buyBtn.addEventListener('click', function() {
-    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=', '_blank');
+    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2KoP78RUzDuimgZm6e2k1HX9nftnGLvfAAeisCAJGP8b', '_blank');
   });
 
 });
